@@ -1,0 +1,31 @@
+ /* Add a class for the image with the initial filter */
+ .image-filter {
+    transition: filter 0.5s ease;
+}
+
+/* Add a class for the image with a different filter on hover */
+.image-filter:hover {
+    filter: grayscale(100%);
+}
+
+
+img {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the specified dimensions */
+}
+
+#details{
+    background-color: aliceblue;
+    border: 5px solid;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align:center; 
+    background-color:white; 
+    display: inline-block;
+
+   
+}

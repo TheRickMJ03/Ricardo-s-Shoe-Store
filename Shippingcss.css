@@ -1,0 +1,40 @@
+/*  
+<!-- 
+Name: Ricardo Mejia
+Date:10/05/2023
+Course Name: IT202/001
+Assignment: Section 001 Unit 3 Assignment 
+Email: ram227@njit.edu
+-->
+
+
+*/
+
+.shippingticket{
+
+    background-color: rgb(61, 61, 54);
+  
+   
+
+}
+
+p{
+    font-family:arial;
+    color: black;
+}
+span{
+
+    font-family:arial;
+    color: black;
+}
+.ticket{
+    border: 5px solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align:center; 
+    background-color:white; 
+    display: inline-block;
+}
